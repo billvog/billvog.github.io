@@ -1,11 +1,11 @@
 - name: Ferman 🍻
   github_repo: billvog/ferman
   description: >
-    A social platform – twitter clone.
+    A full featured social media platform.
   tech_description: >
     Features a Node.js GraphQL API with complete authentication system written from scratch, Next.js 
-    web app with i18n Greek and English translations, SEO best practices, and a monorepo structure to share common code 
-    across packages.
+    web app with i18n Greek and English translations and a React Native application with Expo. It 
+    follows SEO best practices, and a monorepo structure to share common code across packages.
 
 - name: Bongo Places 🌍
   github_repo: billvog/bongo-places
@@ -14,3 +14,11 @@
   tech_description: >
     Developed using Laravel and Blade + Vue, while utilizing Laravel Sail for a Docker Compose development setup, GitHub 
     actions for automated testing on the cloud and Cloudinary for image uploading and optimization.
+
+- name: Zipman 📦
+  github_repo: billvog/zipman
+  description: >
+    A lightweight MacOS application that helps users create and extract archives.
+  tech_description: >
+    Built with Objective-C and UIKit, it features a simple and intuitive user interface, and supports multiple archive formats.
+    It uses the <code>libarchive</code> library for .tar and .gzip support, and <code>libzip</code> for enhanced ZIP file support.
