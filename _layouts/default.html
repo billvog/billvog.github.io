@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+
+  <meta name="description" content="{{ site.description | strip_html | strip_newlines }}">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  {% seo %}
+
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">{{ content }}</div>
+
+  {% include footer.html %}
+
+  <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+$containerWidth: 700px;
+
+$backgroundColor: #ffffff;
+
+$fontSizeScaleFactor: 1.2;
+
+$bodyColor: #000000;
+$bodyFont: "Inconsolata", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$bodyFontSize: 18px;
+$bodyLineHeight: 1.5;
+
+$smallBodyFontSize: 15px;
+
+$footerFontSize: 14px;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  font-size: calc($bodyFontSize / $fontSizeScaleFactor);
+  line-height: $bodyLineHeight;
+
+  @media (min-width: $containerWidth) {
+    margin-top: 5rem;
+    font-size: calc($bodyFontSize * $fontSizeScaleFactor);
+  }
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: #9400d3;
+
+  &:hover {
+    color: #64008f;
+  }
+}
+
+.small {
+  font-size: calc($smallBodyFontSize / $fontSizeScaleFactor);
+  @media (min-width: $containerWidth) {
+    font-size: calc($smallBodyFontSize * $fontSizeScaleFactor);
+  }
+}
+
+footer {
+  margin: 40px auto;
+  text-align: center;
+
+  p {
+    font-size: calc($footerFontSize / $fontSizeScaleFactor);
+    @media (min-width: $containerWidth) {
+      font-size: calc($footerFontSize * $fontSizeScaleFactor);
+    }
+  }
+}
+
+div.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: $containerWidth) {
+  div.container {
+    text-align: justify;
+  }
+}
+
+ul.projects-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

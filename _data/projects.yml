@@ -1,0 +1,16 @@
+- name: Ferman 🍻
+  github_repo: billvog/ferman
+  description: >
+    A social platform – twitter clone.
+  tech_description: >
+    Features a Node.js GraphQL API with complete authentication system written from scratch, Next.js 
+    web app with i18n Greek and English translations, SEO best practices, and a monorepo structure to share common code 
+    across packages.
+
+- name: Bongo Places 🌍
+  github_repo: billvog/bongo-places
+  description: >
+    A digital front-page for businesses; allows users to search for places, view their details, and leave reviews.
+  tech_description: >
+    Developed using Laravel and Blade + Vue, while utilizing Laravel Sail for a Docker Compose development setup, GitHub 
+    actions for automated testing on the cloud and Cloudinary for image uploading and optimization.

@@ -1,0 +1,21 @@
+url: https://billvog.com
+baseurl: "/"
+
+title: Vasilis Voyiadjis 👷‍♂️
+tagline: Vasilis Voyiadjis' Portfolio
+description: >
+  I'm a software engineer.
+
+twitter:
+  username: voyiadjis
+  card: summary
+
+social:
+  name: Vasilis Voyiadjis
+  links:
+    - https://twitter.com/voyiadjis
+    - https://www.linkedin.com/in/vasilis-voyiadjis
+    - https://github.com/billvog
+
+plugins:
+  - jekyll-seo-tag
