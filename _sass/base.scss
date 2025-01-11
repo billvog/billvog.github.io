@@ -20,12 +20,12 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  font-size: calc($bodyFontSize / $fontSizeScaleFactor);
+  font-size: $bodyFontSize / $fontSizeScaleFactor;
   line-height: $bodyLineHeight;
 
   @media (min-width: $containerWidth) {
     margin-top: 5rem;
-    font-size: calc($bodyFontSize * $fontSizeScaleFactor);
+    font-size: $bodyFontSize * $fontSizeScaleFactor;
   }
 }
 
@@ -43,9 +43,9 @@ code {
 }
 
 .small {
-  font-size: calc($smallBodyFontSize / $fontSizeScaleFactor);
+  font-size: $smallBodyFontSize / $fontSizeScaleFactor;
   @media (min-width: $containerWidth) {
-    font-size: calc($smallBodyFontSize * $fontSizeScaleFactor);
+    font-size: $smallBodyFontSize * $fontSizeScaleFactor;
   }
 }
 
@@ -55,9 +55,9 @@ footer {
   text-wrap: balance;
 
   p {
-    font-size: calc($footerFontSize / $fontSizeScaleFactor);
+    font-size: $footerFontSize / $fontSizeScaleFactor;
     @media (min-width: $containerWidth) {
-      font-size: calc($footerFontSize * $fontSizeScaleFactor);
+      font-size: $footerFontSize * $fontSizeScaleFactor;
     }
   }
 }
