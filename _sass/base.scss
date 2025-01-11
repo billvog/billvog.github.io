@@ -52,6 +52,7 @@ code {
 footer {
   margin: 40px auto;
   text-align: center;
+  text-wrap: balance;
 
   p {
     font-size: calc($footerFontSize / $fontSizeScaleFactor);
