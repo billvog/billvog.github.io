@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img src="{{ 'assets/images/avatar.png' | relative_url }}" class="avatar" />
+
 ## Vasilis Voyiadjis
 
 Hi there 👋
@@ -24,9 +26,11 @@ I'm also into music production and composition, take a look at my Soundcloud.
 <ul class="projects-list">
 {% for project in site.data.projects %}
   <li>
-    <a href="https://github.com/{{ project.github_repo }}" target="_blank" title="GitHub Repository">
-      {{ project.name }}
-    </a>
+    <div class="title">
+      <a href="https://github.com/{{ project.github_repo }}" target="_blank" title="GitHub Repository">
+        {{ project.name }}
+      </a>
+    </div>
     <p class="small">{{ project.description }}</p>
     <p class="small">{{ project.tech_description }}</p>
   </li>
