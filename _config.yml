@@ -26,6 +26,10 @@ social:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
   style: compressed
+
+exclude:
+  - README.md
