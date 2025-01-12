@@ -21,4 +21,4 @@
     A lightweight MacOS application that helps users create and extract archives.
   tech_description: >
     Built with Objective-C and UIKit, it features a simple and intuitive user interface, and supports multiple archive formats.
-    It uses the <code>libarchive</code> library for .tar and .gzip support, and <code>libzip</code> for enhanced ZIP file support.
+    It uses the <code>libarchive</code> library for Tar and Gzip support, and <code>libzip</code> for enhanced Zip file support.
