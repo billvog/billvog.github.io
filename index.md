@@ -19,7 +19,8 @@ I'm also into music production and composition, take a look at my Soundcloud.
 🔌 Let's connect:
 <a href="https://github.com/billvog" target="_blank">GitHub</a> \|
 <a href="https://linkedin.com/in/vasilis-voyiadjis" target="_blank">LinkedIn</a> \|
-<a href="https://soundcloud.com/billvog" target="_blank">Soundcloud</a>
+<a href="https://soundcloud.com/billvog" target="_blank">Soundcloud</a> <br />
+📩️ Or just a hey: <a href="mailto:hey@billvog.com" target="_blank">hey@billvog.com</a>
 
 ### Projects
 
