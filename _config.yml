@@ -6,6 +6,12 @@ tagline: Vasilis Voyiadjis' Portfolio
 description: >
   Welcome to Vasilis Voyiadjis' Portfolio Website. Explore and learn about my featured projects and get to know me 8-bits more.
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og.png
+
 twitter:
   username: voyiadjis
   card: summary
