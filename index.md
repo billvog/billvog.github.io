@@ -8,11 +8,11 @@ layout: default
 
 Hi there 👋
 
-My name is Vasilis and I'm currently pursuing my bachelor's in Computer Science and Telecommunications
-at <a href="https://www.uth.gr/en" target="_blank">UTH</a>, while working full-time as a web engineer at
-<a href="https://flarmio.com" target="_blank">Flarmio 🪽</a>.
+I'm Vasilis, a Computer Science and Telecommunications student at <a href="https://www.uth.gr/en" target="_blank">UTH</a> with a background in web development.
 
-I'm also into music production and composition, take a look at my Soundcloud.
+I enjoy building things, exploring new technologies, and experimenting with personal projects, particularly around web development and AI.
+
+Outside of tech, I'm passionate about music composition and production. Feel free to check out my SoundCloud.
 
 📍 Lamia, Greece <br />
 👨‍🎓 Computer Science and Telecommunications <br />
